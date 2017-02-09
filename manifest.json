@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "sillyBeerThing",
+  "description": "This extension will do man",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "beer.png",
+   "default_popup": "popper.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
